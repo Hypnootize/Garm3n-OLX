@@ -22,18 +22,8 @@
 		
 		if_match
 		{
-			"proportionaltoparent"	"1"
-			"xpos"					"cs-0.5"
-			"xpos_minmode"			"cs-0.5"
-			"ypos"					"0"
-			"ypos_minmode"			"0"
-			"delta_item_x"			"10"
-			"delta_item_start_y"	"12"
-			"delta_item_end_y"		"50"
-			"PositiveColor"			"0 255 0 255"
-			"NegativeColor"			"255 0 0 255"
-			"delta_lifetime"		"1.5"
-			"delta_item_font"		"HudFontMediumSmall"
+			"xpos"			"66"
+			"ypos"			"8"
 		}
 		
 		"TimePanelValue"
@@ -54,18 +44,7 @@
 			
 			if_match
 			{
-				"proportionaltoparent"	"1"
-
-				"xpos"			"35"
-				"xpos_minmode"	"35"
-				"ypos"			"9"
-				"ypos_minmode"	"9"
-				"tall"			"12"
-				"wide"			"35"
-				"wide_minmode"	"35"
 				"font"			"Garm3n12Spec"
-				"font_minmode"	"Garm3n12Spec"
-				"font_lodef"	"Garm3n12Spec"
 			}
 		}	
 	}
@@ -84,18 +63,8 @@
 		
 		if_match
 		{
-			"proportionaltoparent"	"1"
-			"xpos"					"cs-0.5"
-			"xpos_minmode"			"cs-0.5"
-			"ypos"					"0"
-			"ypos_minmode"			"0"
-			"delta_item_x"			"50"
-			"delta_item_start_y"	"12"
-			"delta_item_end_y"		"50"
-			"PositiveColor"			"0 255 0 255"
-			"NegativeColor"			"255 0 0 255"
-			"delta_lifetime"		"1.5"
-			"delta_item_font"		"HudFontMediumSmall"
+			"xpos"			"105"
+			"ypos"			"8"
 		}
 		
 		"TimePanelValue"
@@ -116,18 +85,7 @@
 			
 			if_match
 			{
-				"proportionaltoparent"	"1"
-
-				"xpos"			"rs1-15"
-				"xpos_minmode"	"rs1-15"
-				"ypos"			"9"
-				"ypos_minmode"	"9"
-				"wide"			"35"
-				"wide_minmode"	"35"
-				"tall"			"12"
 				"font"			"Garm3n12Spec"
-				"font_minmode"	"Garm3n12Spec"
-				"font_lodef"	"Garm3n12Spec"
 			
 			}
 		}	

@@ -484,7 +484,36 @@
 		{
 			"visible"		"0"
 		}
-	}							
+	}
+	"MapName"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"mapname"
+		"font"			"Garm3n10Spec"
+		"font_minmode"		"ScoreboardVerySmall"
+		"labelText"		"%mapname%"
+		"textAlignment"		"center"
+		"xpos"			"c-255"
+		"ypos"			"r100"
+		"ypos_minmode"		"47"
+		"zpos"			"3"
+		"wide"			"178"
+		"tall"			"20"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fgcolor"		"Garm3nWhite"
+
+		if_mvm
+		{
+			"font"			"Garm3n10Spec"
+			"xpos"			"c-274"
+			"ypos"			"r132"
+			"wide"			"178"
+		}	
+	}
+		
 	"ShadedBar" 
 	{
 		"ControlName"	"ImagePanel"
@@ -1555,62 +1584,6 @@
 				"tall"		"26"
 			}
 		}
-		"MapName"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"mapname"
-			"font"			"Garm3n10Spec"
-			"font_minmode"		"ScoreboardVerySmall"
-			"labelText"		"%mapname%"
-			"textAlignment"		"center"
-			"xpos"			"c-255"
-			"ypos"			"r132"
-			"ypos_minmode"		"r147"
-			"zpos"			"3"
-			"wide"			"178"
-			"tall"			"0"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"fgcolor"		"Garm3nWhite"
-
-			if_mvm
-			{
-				"font"			"Garm3n10Spec"
-				"xpos"			"c-274"
-				"ypos"			"r132"
-				"wide"			"178"
-			}	
-		}
-		"GameType"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"gametype"
-			"font"			"Garm3n10Spec"
-			"font_minmode"		"ScoreboardVerySmall"
-			"labelText"		"%gametype%"
-			"textAlignment"		"center"
-			"xpos"			"c-255"
-			"ypos"			"r122"
-			"ypos_minmode"		"r140"
-			"zpos"			"3"
-			"wide"			"178"
-			"tall"			"0"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"fgcolor"		"Garm3nWhite"
-
-			if_mvm
-			{
-				"font"			"Garm3n10Spec"
-				"xpos"			"c-274"
-				"ypos"			"r122"
-			}
-		}
-		
 		"Kills"
 		{
 			"ControlName"	"CExLabel"
