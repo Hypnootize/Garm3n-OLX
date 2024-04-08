@@ -1,6 +1,6 @@
 <div align="center">
 
-# Garm3n-OLX 
+# Garm3n OLX 
 ### By Garm3n
 
 **[SCREENSHOTS](../screenshots/showcase.md)** -
